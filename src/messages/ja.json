@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "home": "ホーム",
+    "about": "ブランド紹介",
+    "products": "商品紹介",
+    "support": "サポート"
+  },
+  "home": {
+    "title": "De Rolissa",
+    "subtitle": "ラグジュアリーファッションブランド"
+  }
+}

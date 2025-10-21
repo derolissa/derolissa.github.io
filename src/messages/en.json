@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "support": "Support"
+  },
+  "home": {
+    "title": "De Rolissa",
+    "subtitle": "Luxury Fashion Brand"
+  }
+}
