@@ -69,67 +69,64 @@ const translations = {
 const contentData = {
   ja: {
     home: `
-      <h2>Luxury Redefined</h2>
-      <p>De Rolissa は1954年、パリのマレ地区にある小さなアトリエから始まりました。創業者エリザベート・ド・ロリッサが掲げた「時代を超える美」という理念は、70年の時を経た今も、私たちのクリエイションの核心であり続けています。</p>
+      <h2>ThLee</h2>
+      <p>De Rolissa は他のブランドに比べて最近誕生したブランドです。<br>当社はシンプルで使いやすく、おしゃれな製品を提供することに注力しています。<br>このホームページではその中でも"Useful"と"Fashionable"を表現しています。</p>
       
       <div class="section-divider"></div>
       
-      <h3>2025 Spring Collection</h3>
-      <p>今シーズンのコレクションは、南仏プロヴァンスの光と影をテーマに、シルクとリネンの絶妙な組み合わせで表現しました。伝統的な手織り技術と最先端のテキスタイル加工を融合させ、肌に触れた瞬間から違いを感じていただける逸品です。</p>
+      <h3>Brand Start Products</h3>
+      <p>ブランド誕生とともに生まれた製品を"Products"に掲載しています。<br>これらの製品はブランドとしての第一歩として大切なものになるでしょう。<br>購入可能な場所は下に記載があります。</p>
       
-      <p>各ピースには専属アトリエの職人が300時間以上を費やし、ハンドステッチで仕上げています。限定生産により、世界でわずか50着のみの展開となります。</p>
+      <p>未定(決定次第公開予定)</p>
       
       <div class="section-divider"></div>
       
-      <h3>Craftsmanship Heritage</h3>
-      <p>De Rolissa のアトリエでは、フランス・イタリア・日本の伝統技術を継承した職人たちが、一針一針に魂を込めて作品を生み出しています。素材選びから最終仕上げまで、すべての工程に妥協を許さない姿勢が、唯一無二の品質を保証します。</p>
+      <h3>もうすぐ登場</h3>
+      <p>掲載開始をお待ちください。</p>
     `,
     about: `
       <h2>About De Rolissa</h2>
-      <p>De Rolissa は、ラグジュアリーファッションの新たな地平を切り開くメゾンとして、1954年にエリザベート・ド・ロリッサによって設立されました。彼女のビジョンは明確でした——真の贅沢とは、単なる装飾ではなく、時間と技術、そして情熱が織りなす芸術作品である、と。</p>
+      <p>De Rolissa は、ラグジュアリーファッションの新たな地平を切り開くメゾンとして、2025年にライスによって設立されました。</p>
       
       <h3>Our Philosophy</h3>
-      <p>私たちは「Timeless Elegance(時代を超える優雅さ)」を哲学の中心に据えています。流行に左右されることなく、10年後、20年後も愛され続けるデザインを追求し、サステナビリティとラグジュアリーを両立させることに情熱を注いでいます。</p>
+      <p>私たちは「Simple, Useful, Fashionable」のThree L(ThLee)を哲学の中心に据えています。<br>流行に左右されることなく、10年後、20年後も愛され続けるデザインを追求し、サステナビリティとラグジュアリーを両立させることに情熱を注いでいます。</p>
       
-      <p>すべての製品は、環境に配慮した素材選定と倫理的な生産プロセスを経て誕生します。De Rolissa を纏うことは、美しさだけでなく、責任あるライフスタイルを選択することを意味します。</p>
+      <p>すべての製品は、上のThLeeに則って設計されています。</p>
       
       <div class="section-divider"></div>
       
       <h3>Heritage & Innovation</h3>
-      <p>1954年 - パリ・マレ地区に最初のアトリエを開設<br>
-      1978年 - ミラノ・ファッションウィークに初出展、国際的評価を確立<br>
-      1995年 - 日本の伝統織物技術との提携開始<br>
-      2010年 - サステナブル・ラグジュアリー宣言を発表<br>
-      2025年 - 世界30ヶ国、50店舗のグローバルネットワークを構築</p>
+      <p>2025年 - 日本を中心としてECでの展開を開始<br>
+      </p>
       
       <div class="section-divider"></div>
       
       <h3>Atelier & Team</h3>
-      <p>パリ本社アトリエには、平均経験年数25年を超える熟練職人が20名在籍しています。クリエイティブディレクターのソフィア・ヴェルネールを筆頭に、テキスタイルデザイナー、パタンナー、刺繍職人が一丸となり、年間わずか500ピースの限定コレクションを生み出しています。</p>
+      <p>チームに加わってくれる人を待っています。</p>
     `,
     products: `
       <h2>Collections</h2>
       <p>De Rolissa のコレクションは、伝統的なオートクチュールの技法と現代的な感性が融合した、唯一無二のピースで構成されています。各アイテムは限定生産され、シリアルナンバーとオーセンティシティカードが付属します。</p>
       
-      <h3>Women's Collection</h3>
+      <h3>Brand Start Products Collection</h3>
       <ul>
         <li class="product-card">
-          <div class="product-category">Evening Wear</div>
-          <div class="product-name">Silk Evening Gown "Provence"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">南仏の夕暮れからインスピレーションを得たシルクガウン。手織りシルク100%、限定30着。</p>
-          <div class="product-price">¥580,000</div>
+          <div class="product-category">Jatkuvasti</div>
+          <div class="product-name">Lee</div>
+          <p style="font-size:0.85rem;margin:12px 0;">ThLeeを本コレクションで最も表した製品です。</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Day Dress</div>
-          <div class="product-name">Linen Day Dress "Côte d'Azur"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">イタリア産リネンを使用したエレガントなデイドレス。手刺繍ディテール付き。</p>
-          <div class="product-price">¥380,000</div>
+          <div class="product-category">Joskus</div>
+          <div class="product-name">Lee Some</div>
+          <p style="font-size:0.85rem;margin:12px 0;">ThLeeと動きやすさを両立しました。</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Outerwear</div>
-          <div class="product-name">Cashmere Coat "Mont Blanc"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">モンゴル産最高級カシミア使用。伝統的なハンドステッチ仕上げ。</p>
-          <div class="product-price">¥720,000</div>
+          <div class="product-category">Ulkopuolella</div>
+          <div class="product-name">Lämmin</div>
+          <p style="font-size:0.85rem;margin:12px 0;">おしゃれ×暖かい、そして機能性を極限まで追求しました。</p>
+          <div class="product-price">¥null</div>
         </li>
       </ul>
       
@@ -179,11 +176,11 @@ const contentData = {
     `,
     support: `
       <h2>Customer Support</h2>
-      <p>De Rolissa では、お客様一人ひとりに最高のサービスを提供するため、専門のコンシェルジュチームが対応いたします。製品に関するお問い合わせ、オーダーメイドのご相談、アフターケアまで、すべてのニーズにお応えします。</p>
+      <p>De Rolissa では、お客様一人ひとりに最高のサービスを提供するため、専門のコンシェルジュチームが対応いたします。<br>製品に関するお問い合わせ、オーダーメイドのご相談、アフターケアまで、すべてのニーズにお応えします。<br>この機能は開発段階です。<br>現在使用可能な機能はテキストを入力することだけです。(送信は出来ません)</p>
       
       <h3>Contact Us</h3>
       <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+        <input type="hidden" name="access_key" value="4231666c-5273-41d4-b19d-7dd0d1599f1c">
         <input type="hidden" name="subject" value="De Rolissa お問い合わせ">
         <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
         
@@ -204,7 +201,7 @@ const contentData = {
           <textarea name="message" required data-placeholder="messagePlaceholder"></textarea>
         </label>
         
-        <div class="h-captcha" data-sitekey="YOUR_HCAPTCHA_SITE_KEY"></div>
+        <div class="h-captcha" data-sitekey="f64a3a5e-c794-40d2-9050-646e0f76f15"></div>
         
         <button type="submit" data-i18n="formSubmit">送信する</button>
       </form>
@@ -212,10 +209,10 @@ const contentData = {
       <div class="section-divider"></div>
       
       <h3>Store Information</h3>
-      <p><strong>De Rolissa 銀座本店</strong><br>
-      〒104-0061 東京都中央区銀座6-10-1<br>
-      TEL: 03-XXXX-XXXX<br>
-      営業時間: 11:00 - 20:00 (年中無休)</p>
+      <p><strong>De Rolissa Internet</strong><br>
+      De Rolissa Amazon<br>
+      TEL: Null<br>
+      営業時間: 00:00 - 00:00</p>
       
       <p><strong>De Rolissa パリ本店</strong><br>
       15 Rue des Francs-Bourgeois, 75004 Paris, France<br>
@@ -225,7 +222,7 @@ const contentData = {
       <div class="section-divider"></div>
       
       <h3>After Sales Service</h3>
-      <p>De Rolissa の製品は、ご購入後も末永くご愛用いただけるよう、専門職人による修理・メンテナンスサービスを提供しています。シルク製品のクリーニング、レザー製品の補色、ジュエリーのサイズ調整まで、あらゆるご要望に対応いたします。</p>
+      <p>De Rolissa の製品は、ご購入後も末永くご愛用いただけるよう、専門職人による修理・メンテナンスサービス(有料)を提供しています。</p>
       
       <p>サービスのご予約・お問い合わせは、お近くの店舗または上記フォームよりご連絡ください。</p>
     `,
@@ -270,7 +267,7 @@ const contentData = {
       
       <h3>Contact Us</h3>
       <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+        <input type="hidden" name="access_key" value="4231666c-5273-41d4-b19d-7dd0d1599f1c">
         <input type="hidden" name="subject" value="De Rolissa Inquiry">
         <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
         
@@ -291,7 +288,7 @@ const contentData = {
           <textarea name="message" required data-placeholder="messagePlaceholder"></textarea>
         </label>
         
-        <div class="h-captcha" data-sitekey="YOUR_HCAPTCHA_SITE_KEY"></div>
+        <div class="h-captcha" data-sitekey="f64a3a5e-c794-40d2-9050-646e0f76f15"></div>
         
         <button type="submit" data-i18n="formSubmit">Send</button>
       </form>
