@@ -65,12 +65,13 @@ const translations = {
   }
 };
 
+
 // コンテンツデータ
 const contentData = {
   ja: {
     home: `
       <h2>ThLee</h2>
-      <p>De Rolissa は他のブランドに比べて最近誕生したブランドです。<br>当社はシンプルで使いやすく、おしゃれな製品を提供することに注力しています。<br>このホームページではその中でも"Useful"と"Fashionable"を表現しています。</p>
+      <p>De Rolissa は他のブランドに比べて新しく誕生したブランドです。<br>当社はシンプルで使いやすく、おしゃれな製品を提供することに注力しています。<br>このホームページではその中でも"Useful"と"Fashionable"を表現しています。</p>
       
       <div class="section-divider"></div>
       
@@ -86,7 +87,7 @@ const contentData = {
     `,
     about: `
       <h2>About De Rolissa</h2>
-      <p>De Rolissa は、ラグジュアリーファッションの新たな地平を切り開くメゾンとして、2025年にライスによって設立されました。</p>
+      <p>De Rolissa は、ラグジュアリーファッションの新たな地平を切り開く企業として、2025年に設立されました。<br>「何かだけ」それを当社は許しません。<br>良い点でも悪い点でもそれを守り抜きます。<br>良い点が１つだけなら、良い点を増やす。<br>悪い点が１つだけなら、悪い点をなくす。<br>De Rolissaは、常に進化し続けるブランドであり続けます。</p>
       
       <h3>Our Philosophy</h3>
       <p>私たちは「Simple, Useful, Fashionable」のThree L(ThLee)を哲学の中心に据えています。<br>流行に左右されることなく、10年後、20年後も愛され続けるデザインを追求し、サステナビリティとラグジュアリーを両立させることに情熱を注いでいます。</p>
@@ -105,15 +106,15 @@ const contentData = {
       <p>チームに加わってくれる人を待っています。</p>
     `,
     products: `
-      <h2>Collections</h2>
-      <p>De Rolissa のコレクションは、伝統的なオートクチュールの技法と現代的な感性が融合した、唯一無二のピースで構成されています。各アイテムは限定生産され、シリアルナンバーとオーセンティシティカードが付属します。</p>
+      <h2>Products & Collections</h2>
+      <p>De Rolissa の現在販売している製品とそのコレクションを記載しています。<br>製品には以下のものも同梱した状態でお客様へお送りします。<br>  製品証明書(シリアルナンバーなどが記載)<br>  サポートカード</p>
       
       <h3>Brand Start Products Collection</h3>
       <ul>
         <li class="product-card">
           <div class="product-category">Jatkuvasti</div>
           <div class="product-name">Lee</div>
-          <p style="font-size:0.85rem;margin:12px 0;">ThLeeを本コレクションで最も表した製品です。</p>
+          <p style="font-size:0.85rem;margin:12px 0;">ThLeeをこのコレクションで最も表した製品です。</p>
           <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
@@ -129,54 +130,54 @@ const contentData = {
           <div class="product-price">¥null</div>
         </li>
       </ul>
-      
-      <h3>Men's Collection</h3>
+
+      <h3>Next Collection</h3>
       <ul>
         <li class="product-card">
-          <div class="product-category">Tailoring</div>
-          <div class="product-name">Bespoke Suit "Savile"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">イタリア・ビエラ産Super 150'sウール。フルハンドメイド、オーダーメイド対応。</p>
-          <div class="product-price">¥680,000</div>
+          <div class="product-category">Jatkuvasti</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Shirt</div>
-          <div class="product-name">Egyptian Cotton Shirt</div>
-          <p style="font-size:0.85rem;margin:12px 0;">エジプト超長綿100%。マザーオブパールボタン、手縫いボタンホール。</p>
-          <div class="product-price">¥95,000</div>
+          <div class="product-category">Joskus</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Accessories</div>
-          <div class="product-name">Leather Briefcase "Executive"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">イタリア・トスカーナ産フルグレインレザー。職人による手縫い仕上げ。</p>
-          <div class="product-price">¥420,000</div>
+          <div class="product-category">Ulkopuolella</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
       </ul>
-      
-      <h3>Limited Editions</h3>
+
+      <h3>Next Collection</h3>
       <ul>
         <li class="product-card">
-          <div class="product-category">Jewelry</div>
-          <div class="product-name">Diamond Cufflinks "Étoile"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">18金ホワイトゴールド、VVS1ダイヤモンド使用。世界限定10セット。</p>
-          <div class="product-price">¥1,850,000</div>
+          <div class="product-category">Jatkuvasti</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Collaboration</div>
-          <div class="product-name">Silk Scarf "Kyoto Edition"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">京都西陣織とのコラボレーション。伝統技法×現代デザイン、限定50枚。</p>
-          <div class="product-price">¥280,000</div>
+          <div class="product-category">Joskus</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Handbag</div>
-          <div class="product-name">Crocodile Handbag "Élégance"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">希少なポロサスクロコダイル使用。完全受注生産、納期6ヶ月。</p>
-          <div class="product-price">¥3,200,000</div>
+          <div class="product-category">Ulkopuolella</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
       </ul>
     `,
     support: `
       <h2>Customer Support</h2>
-      <p>De Rolissa では、お客様一人ひとりに最高のサービスを提供するため、専門のコンシェルジュチームが対応いたします。<br>製品に関するお問い合わせ、オーダーメイドのご相談、アフターケアまで、すべてのニーズにお応えします。</p>
+      <p>De Rolissa では、お客様一人ひとりに最高のサービスを提供するため、詳細なサポートを行っています。<br>製品に関するお問い合わせ、オーダーメイドのご相談、アフターケアまで、すべてのニーズにお応えします。<br>サポート内容送信先: derolissa@consultant.com<br>*上記メールへの直接送信でも対応致します。<br> 上記メールへの直接送信の場合は確実に送信されます。<br> 下記フォームは先着人数が決まっています。<br>*企業としてのご連絡は上記メールアドレスを経由してご案内いたします。</p>
       
       <h3>Contact Us</h3>
       <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
@@ -211,20 +212,16 @@ const contentData = {
       <h3>Store Information</h3>
       <p><strong>De Rolissa Internet</strong><br>
       De Rolissa Amazon<br>
-      TEL: Null<br>
-      営業時間: 00:00 - 00:00</p>
-      
-      <p><strong>De Rolissa パリ本店</strong><br>
-      15 Rue des Francs-Bourgeois, 75004 Paris, France<br>
-      TEL: +33 1 XXXX XXXX<br>
-      営業時間: 10:00 - 19:00 (日曜定休)</p>
+      E-Mail: derolissa@consultant.com<br>
+      営業時間: 00:00 - 00:00<br>
+      サポート対応時間: 9:00 - 18:00</p>
       
       <div class="section-divider"></div>
       
       <h3>After Sales Service</h3>
       <p>De Rolissa の製品は、ご購入後も末永くご愛用いただけるよう、専門職人による修理・メンテナンスサービス(有料)を提供しています。</p>
       
-      <p>サービスのご予約・お問い合わせは、お近くの店舗または上記フォームよりご連絡ください。</p>
+      <p>サービスのご予約・お問い合わせは、公式X、上記メールアドレスまたは上記フォームよりご連絡ください。<br>*フォームは先着のため送信されない場合があります。</p>
     `,
     settings: `
       <h2 data-i18n="language">言語設定</h2>
@@ -246,12 +243,12 @@ const contentData = {
   en: {
     home: `
       <h2>ThLee</h2>
-      <p>De Rolissa is a recently launched brand compared to others.<br>We are committed to providing simple, functional, and fashionable products.<br>This website expresses "Useful" and "Fashionable" among our core values.</p>
+      <p>De Rolissa is a newly launched brand compared to others.<br>We focus on providing simple, functional, and fashionable products.<br>This homepage expresses "Useful" and "Fashionable" among these values.</p>
       
       <div class="section-divider"></div>
       
       <h3>Brand Start Products</h3>
-      <p>Products born with the brand's inception are featured in "Products".<br>These items will become important milestones as the brand's first steps.<br>Purchase locations are listed below.</p>
+      <p>Products born alongside the brand's launch are featured in "Products".<br>These products will become important first steps for the brand.<br>Purchase locations are listed below.</p>
       
       <p>To be announced (will be published once determined)</p>
       
@@ -262,10 +259,10 @@ const contentData = {
     `,
     about: `
       <h2>About De Rolissa</h2>
-      <p>De Rolissa was founded in 2025 by Raisu as a maison opening new horizons in luxury fashion.</p>
+      <p>De Rolissa was established in 2025 as a company opening new horizons in luxury fashion.<br>We never allow "just something."<br>We protect both our strengths and weaknesses.<br>If there's only one good point, we increase the good points.<br>If there's only one bad point, we eliminate the bad points.<br>De Rolissa continues to be a brand that constantly evolves.</p>
       
       <h3>Our Philosophy</h3>
-      <p>We place "Simple, Useful, Fashionable" - our Three L (ThLee) - at the center of our philosophy.<br>We are passionate about pursuing designs that will be loved 10 and 20 years from now, unaffected by trends, and achieving both sustainability and luxury.</p>
+      <p>We place "Simple, Useful, Fashionable" - our Three L (ThLee) - at the center of our philosophy.<br>Unaffected by trends, we are passionate about pursuing designs that will be loved 10 and 20 years from now, and achieving both sustainability and luxury.</p>
       
       <p>All products are designed according to the ThLee principles above.</p>
       
@@ -281,15 +278,15 @@ const contentData = {
       <p>We are waiting for people to join our team.</p>
     `,
     products: `
-      <h2>Collections</h2>
-      <p>De Rolissa's collections consist of unique pieces that fuse traditional haute couture techniques with contemporary sensibility. Each item is produced in limited quantities and comes with a serial number and authenticity card.</p>
+      <h2>Products & Collections</h2>
+      <p>De Rolissa's currently available products and collections are listed here.<br>Products are delivered to customers including the following items:<br>  Product Certificate (with serial number, etc.)<br>  Support Card</p>
       
       <h3>Brand Start Products Collection</h3>
       <ul>
         <li class="product-card">
           <div class="product-category">Jatkuvasti</div>
           <div class="product-name">Lee</div>
-          <p style="font-size:0.85rem;margin:12px 0;">The product that best represents ThLee in this collection.</p>
+          <p style="font-size:0.85rem;margin:12px 0;">The product that best expresses ThLee in this collection.</p>
           <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
@@ -301,58 +298,58 @@ const contentData = {
         <li class="product-card">
           <div class="product-category">Ulkopuolella</div>
           <div class="product-name">Lämmin</div>
-          <p style="font-size:0.85rem;margin:12px 0;">Fashion × warmth, with functionality pursued to the limit.</p>
+          <p style="font-size:0.85rem;margin:12px 0;">Fashion × warmth, with functionality pursued to the extreme.</p>
           <div class="product-price">¥null</div>
         </li>
       </ul>
-      
-      <h3>Men's Collection</h3>
+
+      <h3>Next Collection</h3>
       <ul>
         <li class="product-card">
-          <div class="product-category">Tailoring</div>
-          <div class="product-name">Bespoke Suit "Savile"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">Super 150's wool from Biella, Italy. Fully handmade, bespoke available.</p>
-          <div class="product-price">¥680,000</div>
+          <div class="product-category">Jatkuvasti</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Shirt</div>
-          <div class="product-name">Egyptian Cotton Shirt</div>
-          <p style="font-size:0.85rem;margin:12px 0;">100% Egyptian extra-long staple cotton. Mother-of-pearl buttons, hand-sewn buttonholes.</p>
-          <div class="product-price">¥95,000</div>
+          <div class="product-category">Joskus</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Accessories</div>
-          <div class="product-name">Leather Briefcase "Executive"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">Full-grain leather from Tuscany, Italy. Hand-stitched by artisans.</p>
-          <div class="product-price">¥420,000</div>
+          <div class="product-category">Ulkopuolella</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
       </ul>
-      
-      <h3>Limited Editions</h3>
+
+      <h3>Next Collection</h3>
       <ul>
         <li class="product-card">
-          <div class="product-category">Jewelry</div>
-          <div class="product-name">Diamond Cufflinks "Étoile"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">18K white gold with VVS1 diamonds. Limited to 10 sets worldwide.</p>
-          <div class="product-price">¥1,850,000</div>
+          <div class="product-category">Jatkuvasti</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Collaboration</div>
-          <div class="product-name">Silk Scarf "Kyoto Edition"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">Collaboration with Kyoto Nishijin-ori. Traditional techniques × modern design, limited to 50 pieces.</p>
-          <div class="product-price">¥280,000</div>
+          <div class="product-category">Joskus</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Handbag</div>
-          <div class="product-name">Crocodile Handbag "Élégance"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">Made with rare Porosus crocodile. Fully made-to-order, 6-month delivery.</p>
-          <div class="product-price">¥3,200,000</div>
+          <div class="product-category">Ulkopuolella</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
       </ul>
     `,
     support: `
       <h2>Customer Support</h2>
-      <p>At De Rolissa, our dedicated concierge team responds to provide the highest level of service to each customer.<br>We address all needs from product inquiries, bespoke consultations, to aftercare.</p>
+      <p>At De Rolissa, we provide detailed support to offer the best service to each customer.<br>We respond to all needs from product inquiries, custom order consultations, to aftercare.<br>Support contact: derolissa@consultant.com<br>*Direct emails to the above address are also accepted.<br>Direct email delivery is guaranteed.<br>The form below has a limited number of entries.<br>*Corporate inquiries will be guided through the above email address.</p>
       
       <h3>Contact Us</h3>
       <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
@@ -387,20 +384,16 @@ const contentData = {
       <h3>Store Information</h3>
       <p><strong>De Rolissa Internet</strong><br>
       De Rolissa Amazon<br>
-      TEL: Null<br>
-      Hours: 00:00 - 00:00</p>
-      
-      <p><strong>De Rolissa Paris Flagship</strong><br>
-      15 Rue des Francs-Bourgeois, 75004 Paris, France<br>
-      TEL: +33 1 XXXX XXXX<br>
-      Hours: 10:00 - 19:00 (Closed Sundays)</p>
+      E-Mail: derolissa@consultant.com<br>
+      Business Hours: 00:00 - 00:00<br>
+      Support Hours: 9:00 - 18:00</p>
       
       <div class="section-divider"></div>
       
       <h3>After Sales Service</h3>
-      <p>De Rolissa products are supported by repair and maintenance services (paid) by specialized artisans to ensure your long-lasting enjoyment.</p>
+      <p>De Rolissa products are supported by repair and maintenance services (paid) by specialized artisans to ensure your long-lasting enjoyment after purchase.</p>
       
-      <p>For service reservations and inquiries, please contact your nearest store or use the form above.</p>
+      <p>For service reservations and inquiries, please contact us via official X, the above email address, or the form above.<br>*The form is first-come, first-served and may not send in some cases.</p>
     `,
     settings: `
       <h2 data-i18n="language">Language Settings</h2>
@@ -422,12 +415,12 @@ const contentData = {
   fi: {
     home: `
       <h2>ThLee</h2>
-      <p>De Rolissa on äskettäin syntynyt brändi verrattuna muihin.<br>Olemme sitoutuneet tarjoamaan yksinkertaisia, käytännöllisiä ja muodikkaita tuotteita.<br>Tämä kotisivu ilmaisee "Useful" ja "Fashionable" arvojemme keskiössä.</p>
+      <p>De Rolissa on uusi brändi verrattuna muihin.<br>Keskitymme tarjoamaan yksinkertaisia, käytännöllisiä ja muodikkaita tuotteita.<br>Tämä kotisivu ilmaisee "Useful" ja "Fashionable" näiden arvojen joukossa.</p>
       
       <div class="section-divider"></div>
       
       <h3>Brand Start Products</h3>
-      <p>Brändin syntymän myötä syntyneet tuotteet esitellään "Products"-osiossa.<br>Nämä tuotteet tulevat olemaan tärkeitä virstanpylväitä brändin ensiaskelina.<br>Ostopaikat on lueteltu alla.</p>
+      <p>Brändin lanseerauksen yhteydessä syntyneet tuotteet esitellään "Products"-osiossa.<br>Nämä tuotteet tulevat olemaan tärkeitä ensimmäisiä askeleita brändille.<br>Ostopaikat on lueteltu alla.</p>
       
       <p>Ilmoitetaan myöhemmin (julkaistaan kun päätetty)</p>
       
@@ -438,17 +431,17 @@ const contentData = {
     `,
     about: `
       <h2>Tietoja De Rolissasta</h2>
-      <p>De Rolissan perusti Raisu vuonna 2025 luksusmuodin uusia horisontteja avaavana talonaan.</p>
+      <p>De Rolissa perustettiin vuonna 2025 yrityksenä, joka avaa uusia horisontteja luksusmuodissa.<br>Emme koskaan hyväksy "vain jotain."<br>Suojelemme sekä vahvuuksiamme että heikkouksiamme.<br>Jos on vain yksi hyvä puoli, lisäämme hyviä puolia.<br>Jos on vain yksi huono puoli, poistamme huonot puolet.<br>De Rolissa on jatkuvasti kehittyvä brändi.</p>
       
       <h3>Filosofiamme</h3>
-      <p>Asetamme "Simple, Useful, Fashionable" - Three L (ThLee) - filosofiamme keskiöön.<br>Olemme intohimoisia tavoittelemaan malleja, joita rakastetaan 10 ja 20 vuoden päästä, trendien vaikuttamatta, ja saavuttamaan sekä kestävyys että luksus.</p>
+      <p>Asetamme "Simple, Useful, Fashionable" - Three L (ThLee) - filosofiamme keskiöön.<br>Trendien vaikuttamatta olemme intohimoisia tavoittelemaan malleja, joita rakastetaan 10 ja 20 vuoden päästä, ja saavuttamaan sekä kestävyys että luksus.</p>
       
       <p>Kaikki tuotteet on suunniteltu yllä olevien ThLee-periaatteiden mukaisesti.</p>
       
       <div class="section-divider"></div>
       
       <h3>Perintö & Innovaatio</h3>
-      <p>2025 - Sähköisen kaupankäynnin käynnistäminen Japaniin keskittyen<br>
+      <p>2025 - Verkkokaupan käynnistäminen Japaniin keskittyen<br>
       </p>
       
       <div class="section-divider"></div>
@@ -457,15 +450,15 @@ const contentData = {
       <p>Odotamme ihmisiä liittymään tiimiimme.</p>
     `,
     products: `
-      <h2>Kokoelmat</h2>
-      <p>De Rolissan kokoelmat koostuvat ainutlaatuisista kappaleista, jotka yhdistävät perinteisiä haute couture -tekniikoita nykyaikaiseen herkkyy​teen. Jokainen tuote valmistetaan rajoitetuissa erissä ja toimitetaan sarjanumerolla ja aitoustodistuksella.</p>
+      <h2>Tuotteet & Kokoelmat</h2>
+      <p>De Rolissan tällä hetkellä saatavilla olevat tuotteet ja kokoelmat on lueteltu täällä.<br>Tuotteet toimitetaan asiakkaille seuraavien kohteiden kanssa:<br>  Tuotetodistus (sarjanumerolla jne.)<br>  Tukikortti</p>
       
       <h3>Brand Start Products -kokoelma</h3>
       <ul>
         <li class="product-card">
           <div class="product-category">Jatkuvasti</div>
           <div class="product-name">Lee</div>
-          <p style="font-size:0.85rem;margin:12px 0;">Tuote, joka parhaiten edustaa ThLee-filosofiaa tässä kokoelmassa.</p>
+          <p style="font-size:0.85rem;margin:12px 0;">Tuote, joka parhaiten ilmaisee ThLee-filosofiaa tässä kokoelmassa.</p>
           <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
@@ -481,54 +474,54 @@ const contentData = {
           <div class="product-price">¥null</div>
         </li>
       </ul>
-      
-      <h3>Miesten kokoelma</h3>
+
+      <h3>Seuraava Kokoelma</h3>
       <ul>
         <li class="product-card">
-          <div class="product-category">Tailoring</div>
-          <div class="product-name">Bespoke Suit "Savile"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">Super 150's villaa Biellasta, Italia. Täysin käsintehty, räätälöinti saatavilla.</p>
-          <div class="product-price">¥680,000</div>
+          <div class="product-category">Jatkuvasti</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Shirt</div>
-          <div class="product-name">Egyptian Cotton Shirt</div>
-          <p style="font-size:0.85rem;margin:12px 0;">100% egyptiläistä pitkäkuituista puuvillaa. Helmiäisnapit, käsin ommelut napinlävet.</p>
-          <div class="product-price">¥95,000</div>
+          <div class="product-category">Joskus</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Accessories</div>
-          <div class="product-name">Leather Briefcase "Executive"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">Täysjyvänahkaa Toskanasta, Italia. Käsinommeltu käsityöläisten toimesta.</p>
-          <div class="product-price">¥420,000</div>
+          <div class="product-category">Ulkopuolella</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
       </ul>
-      
-      <h3>Rajoitetut painokset</h3>
+
+      <h3>Seuraava Kokoelma</h3>
       <ul>
         <li class="product-card">
-          <div class="product-category">Jewelry</div>
-          <div class="product-name">Diamond Cufflinks "Étoile"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">18K valkokultaa VVS1-timantteilla. Rajoitettu 10 settiin maailmanlaajuisesti.</p>
-          <div class="product-price">¥1,850,000</div>
+          <div class="product-category">Jatkuvasti</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Collaboration</div>
-          <div class="product-name">Silk Scarf "Kyoto Edition"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">Yhteistyö Kioton Nishijin-orin kanssa. Perinteiset tekniikat × moderni muotoilu, rajoitettu 50 kappaleeseen.</p>
-          <div class="product-price">¥280,000</div>
+          <div class="product-category">Joskus</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
         <li class="product-card">
-          <div class="product-category">Handbag</div>
-          <div class="product-name">Crocodile Handbag "Élégance"</div>
-          <p style="font-size:0.85rem;margin:12px 0;">Valmistettu harvinaisesta Porosus-krokotiilista. Täysin tilauksesta, 6 kuukauden toimitusaika.</p>
-          <div class="product-price">¥3,200,000</div>
+          <div class="product-category">Ulkopuolella</div>
+          <div class="product-name">nonedata</div>
+          <p style="font-size:0.85rem;margin:12px 0;">none data</p>
+          <div class="product-price">¥null</div>
         </li>
       </ul>
     `,
     support: `
       <h2>Asiakastuki</h2>
-      <p>De Rolissassa omistautunut concierge-tiimimme vastaa tarjotakseen korkeimman tason palvelua jokaiselle asiakkaalle.<br>Käsittelemme kaikki tarpeet tuotekyselyistä, räätälöintikonsultaatioista jälkihoitoon.</p>
+      <p>De Rolissassa tarjoamme yksityiskohtaista tukea tarjotaksemme parhaan palvelun jokaiselle asiakkaalle.<br>Vastaamme kaikkiin tarpeisiin tuotekyselyistä, tilaustyökonsultaatioista jälkihoitoon.<br>Tukiyhteydenotto: derolissa@consultant.com<br>*Suorat sähköpostit yllä olevaan osoitteeseen hyväksytään myös.<br>Suora sähköpostien toimitus on taattu.<br>Alla oleva lomake on rajoitettu määrältään.<br>*Yrityskyselyt ohjataan yllä olevan sähköpostiosoitteen kautta.</p>
       
       <h3>Ota yhteyttä</h3>
       <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
@@ -563,20 +556,16 @@ const contentData = {
       <h3>Myymälätiedot</h3>
       <p><strong>De Rolissa Internet</strong><br>
       De Rolissa Amazon<br>
-      Puh: Null<br>
-      Aukioloajat: 00:00 - 00:00</p>
-      
-      <p><strong>De Rolissa Pariisin lippulaivamyymälä</strong><br>
-      15 Rue des Francs-Bourgeois, 75004 Pariisi, Ranska<br>
-      Puh: +33 1 XXXX XXXX<br>
-      Aukioloajat: 10:00 - 19:00 (Suljettu sunnuntaisin)</p>
+      Sähköposti: derolissa@consultant.com<br>
+      Aukioloajat: 00:00 - 00:00<br>
+      Tukiajat: 9:00 - 18:00</p>
       
       <div class="section-divider"></div>
       
       <h3>Myynnin jälkeinen palvelu</h3>
-      <p>De Rolissan tuotteita tukevat erikoistuneiden käsityöläisten korjaus- ja huoltopalvelut (maksullinen) varmistaaksemme pitkäaikaisen nautinnon.</p>
+      <p>De Rolissan tuotteita tukevat erikoistuneiden käsityöläisten korjaus- ja huoltopalvelut (maksullinen) varmistaaksemme pitkäaikaisen nautinnon oston jälkeen.</p>
       
-      <p>Palveluvarauksiin ja kyselyihin, ota yhteyttä lähimpään myymälään tai käytä yllä olevaa lomaketta.</p>
+      <p>Palveluvarauksiin ja kyselyihin, ota yhteyttä virallisen X:n, yllä olevan sähköpostiosoitteen tai yllä olevan lomakkeen kautta.<br>*Lomake on ensin tullut, ensin palveltu ja ei välttämättä lähetä joissakin tapauksissa.</p>
     `,
     settings: `
       <h2 data-i18n="language">Kieliasetukset</h2>
@@ -597,8 +586,10 @@ const contentData = {
   }
 };
 
+
 // 現在の言語
 let currentLang = localStorage.getItem('derolissa_lang') || 'ja';
+
 
 // 時計更新
 const clock = document.getElementById('clock');
@@ -608,6 +599,7 @@ function updateClock() {
 }
 setInterval(updateClock, 1000);
 updateClock();
+
 
 // 翻訳適用関数
 function applyTranslations() {
@@ -626,6 +618,7 @@ function applyTranslations() {
   });
 }
 
+
 // アイコンクリックでウィンドウ生成
 document.querySelectorAll('.icon').forEach(icon => {
   icon.addEventListener('click', () => {
@@ -634,6 +627,7 @@ document.querySelectorAll('.icon').forEach(icon => {
     openWindow(app, title);
   });
 });
+
 
 // ウィンドウ生成関数
 function openWindow(appId, title) {
@@ -702,8 +696,10 @@ function openWindow(appId, title) {
   }
 }
 
+
 // 初期化
 applyTranslations();
+
 
 // アニメーションCSS
 const style = document.createElement('style');
