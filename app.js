@@ -261,7 +261,7 @@ const contentData = {
     `,
     about: `
       <h2>About De Rolissa</h2>
-      <p>De Rolissa was established in 2025 as a company opening new horizons in luxury fashion.<br>We never allow "just something."<br>We protect both our strengths and weaknesses.<br>If there's only one good point, we increase the good points.<br>If there's only one bad point, we eliminate the bad points.<br>De Rolissa continues to be a brand that constantly evolves.</p>
+      <p>De Rolissa was founded in 2025 by Raisu as a maison opening new horizons in luxury fashion.</p>
       
       <h3>Our Philosophy</h3>
       <p>We place "Simple, Useful, Fashionable" - our Three L (ThLee) - at the center of our philosophy.<br>Unaffected by trends, we are passionate about pursuing designs that will be loved 10 and 20 years from now, and achieving both sustainability and luxury.</p>
@@ -353,7 +353,7 @@ const contentData = {
     `,
     support: `
       <h2>Customer Support</h2>
-      <p>At De Rolissa, we provide detailed support to offer the best service to each customer.<br>We respond to all needs from product inquiries, custom order consultations, to aftercare.<br>Support contact: derolissa@consultant.com<br>*Direct emails to the above address are also accepted.<br>Direct email delivery is guaranteed.<br>The form below has a limited number of entries.<br>*Corporate inquiries will be guided through the above email address.</p>
+      <p>At De Rolissa, we provide detailed support to offer the best service to each customer.<br>We respond to all needs from product inquiries, custom order consultations, to aftercare.<br>Support contact: derolissa@consultant.com<br>*Direct emails to the above address are also accepted.<br>Corporate inquiries will be guided through the above email address.</p>
       
       <h3>Contact Us</h3>
       <form id="contactForm">
@@ -434,7 +434,7 @@ const contentData = {
     `,
     about: `
       <h2>Tietoja De Rolissasta</h2>
-      <p>De Rolissa perustettiin vuonna 2025 yrityksenä, joka avaa uusia horisontteja luksusmuodissa.<br>Emme koskaan hyväksy "vain jotain."<br>Suojelemme sekä vahvuuksiamme että heikkouksiamme.<br>Jos on vain yksi hyvä puoli, lisäämme hyviä puolia.<br>Jos on vain yksi huono puoli, poistamme huonot puolet.<br>De Rolissa on jatkuvasti kehittyvä brändi.</p>
+      <p>De Rolissan perusti Raisu vuonna 2025 luksusmuodin uusia horisontteja avaavana talonaan.</p>
       
       <h3>Filosofiamme</h3>
       <p>Asetamme "Simple, Useful, Fashionable" - Three L (ThLee) - filosofiamme keskiöön.<br>Trendien vaikuttamatta olemme intohimoisia tavoittelemaan malleja, joita rakastetaan 10 ja 20 vuoden päästä, ja saavuttamaan sekä kestävyys että luksus.</p>
@@ -526,7 +526,7 @@ const contentData = {
     `,
     support: `
       <h2>Asiakastuki</h2>
-      <p>De Rolissassa tarjoamme yksityiskohtaista tukea tarjotaksemme parhaan palvelun jokaiselle asiakkaalle.<br>Vastaamme kaikkiin tarpeisiin tuotekyselyistä, tilaustyökonsultaatioista jälkihoitoon.<br>Tukiyhteydenotto: derolissa@consultant.com<br>*Suorat sähköpostit yllä olevaan osoitteeseen hyväksytään myös.<br>Suora sähköpostien toimitus on taattu.<br>Alla oleva lomake on rajoitettu määrältään.<br>*Yrityskyselyt ohjataan yllä olevan sähköpostiosoitteen kautta.</p>
+      <p>De Rolissassa tarjoamme yksityiskohtaista tukea tarjotaksemme parhaan palvelun jokaiselle asiakkaalle.<br>Vastaamme kaikkiin tarpeisiin tuotekyselyistä, tilaustyökonsultaatioista jälkihoitoon.<br>Tukiyhteydenotto: derolissa@consultant.com<br>*Suorat sähköpostit yllä olevaan osoitteeseen hyväksytään myös.<br>Yrityskyselyt ohjataan yllä olevan sähköpostiosoitteen kautta.</p>
       
       <h3>Ota yhteyttä</h3>
       <form id="contactForm">
@@ -685,89 +685,40 @@ function openWindow(appId, title) {
   }
 
 
-  // フォーム送信処理（Vercel API経由 - 完全版）
+  // ★★★ ここだけ変更: Vercel API経由のフォーム送信 ★★★
   const form = document.getElementById('contactForm');
   if (form) {
-    // 既存のイベントリスナーを削除（重複防止）
-    const newForm = form.cloneNode(true);
-    form.parentNode.replaceChild(newForm, form);
-    
-    newForm.addEventListener('submit', async function(e) {
+    form.addEventListener('submit', async function(e) {
       e.preventDefault();
       
-      console.log('[Form] Submission started');
-      console.log('[Form] Current language:', currentLang);
-      
-      // Captcha確認
-      const hCaptcha = newForm.querySelector('textarea[name=h-captcha-response]');
-      console.log('[Form] hCaptcha element:', hCaptcha);
-      console.log('[Form] hCaptcha value:', hCaptcha ? hCaptcha.value : 'null');
-      
+      const hCaptcha = form.querySelector('textarea[name=h-captcha-response]');
       if (hCaptcha && !hCaptcha.value) {
-        console.warn('[Form] Captcha not completed');
         alert(translations[currentLang].captchaError);
         return;
       }
 
-      // フォームデータを取得
-      const formData = new FormData(newForm);
+      const formData = new FormData(form);
       const data = Object.fromEntries(formData);
-      
-      console.log('[Form] Form data:', data);
-      
-      // 送信ボタンを無効化
-      const submitBtn = newForm.querySelector('button[type="submit"]');
-      const originalText = submitBtn.textContent;
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Sending...';
-      console.log('[Form] Submit button disabled');
 
       try {
-        // Vercel API経由で送信
-        console.log('[Form] Sending to /api/contact');
         const response = await fetch('/api/contact', {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(data),
         });
 
-        console.log('[Form] Response status:', response.status);
-        console.log('[Form] Response headers:', response.headers);
-        
         const result = await response.json();
-        console.log('[Form] Response data:', result);
 
         if (result.success) {
-          console.log('[Form] Submission successful');
           alert(translations[currentLang].formSuccess);
-          newForm.reset();
-          
-          // hCaptchaをリセット
-          if (window.hcaptcha) {
-            console.log('[Form] Resetting hCaptcha');
-            window.hcaptcha.reset();
-          }
+          form.reset();
         } else {
-          console.error('[Form] Submission failed:', result);
           alert(translations[currentLang].formError);
         }
       } catch (error) {
-        console.error('[Form] Network error:', error);
-        console.error('[Form] Error stack:', error.stack);
         alert(translations[currentLang].formError);
-      } finally {
-        // 送信ボタンを元に戻す
-        submitBtn.disabled = false;
-        submitBtn.textContent = originalText;
-        console.log('[Form] Submit button re-enabled');
       }
     });
-    
-    console.log('[Form] Event listener attached successfully');
-  } else {
-    console.warn('[Form] Contact form not found in this window');
   }
 
 
@@ -824,21 +775,3 @@ style.textContent = `
 }
 `;
 document.head.appendChild(style);
-
-
-
-// グローバルエラーハンドラー
-window.addEventListener('error', function(e) {
-  console.error('[Global] Error caught:', e.error);
-  console.error('[Global] Error message:', e.message);
-  console.error('[Global] Error location:', e.filename, e.lineno, e.colno);
-});
-
-window.addEventListener('unhandledrejection', function(e) {
-  console.error('[Global] Unhandled promise rejection:', e.reason);
-  console.error('[Global] Promise:', e.promise);
-});
-
-console.log('[Init] De Rolissa script loaded successfully');
-console.log('[Init] Current language:', currentLang);
-console.log('[Init] Available translations:', Object.keys(translations));
